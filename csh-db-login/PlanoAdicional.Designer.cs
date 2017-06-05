@@ -48,8 +48,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btGuardar = new System.Windows.Forms.Button();
-            this.txtMedia = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbMedia = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtALG
@@ -225,13 +225,6 @@
             this.btGuardar.UseVisualStyleBackColor = true;
             this.btGuardar.Click += new System.EventHandler(this.btGuardar_Click);
             // 
-            // txtMedia
-            // 
-            this.txtMedia.Location = new System.Drawing.Point(211, 204);
-            this.txtMedia.Name = "txtMedia";
-            this.txtMedia.Size = new System.Drawing.Size(57, 20);
-            this.txtMedia.TabIndex = 40;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -242,13 +235,23 @@
             this.label1.TabIndex = 41;
             this.label1.Text = "MEDIA";
             // 
+            // lbMedia
+            // 
+            this.lbMedia.AutoSize = true;
+            this.lbMedia.Location = new System.Drawing.Point(211, 218);
+            this.lbMedia.Name = "lbMedia";
+            this.lbMedia.Size = new System.Drawing.Size(10, 13);
+            this.lbMedia.TabIndex = 42;
+            this.lbMedia.Text = "f";
+            this.lbMedia.Click += new System.EventHandler(this.lbMedia_Click);
+            // 
             // PlanoAdicional
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 340);
+            this.Controls.Add(this.lbMedia);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtMedia);
             this.Controls.Add(this.btGuardar);
             this.Controls.Add(this.txtALG);
             this.Controls.Add(this.txtFLJ);
@@ -300,7 +303,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btGuardar;
-        private System.Windows.Forms.TextBox txtMedia;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbMedia;
     }
 }

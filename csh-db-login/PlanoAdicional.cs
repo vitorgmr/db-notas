@@ -20,6 +20,9 @@ namespace csh_db_login
         {
             InitializeComponent();
             lerfich();
+            double soma;
+            soma = calcMedia();
+
         }
         string path = @"PlanoAdicional.txt";
 
@@ -45,6 +48,31 @@ namespace csh_db_login
             w.Close();
         }
 
+        public double calcMedia()
+        {
+            int aic;
+            int.TryParse((txtAIC.Text), out aic);
+            int dp;
+            int.TryParse((txtDP.Text), out dp);
+            int soic;
+            int.TryParse((txtSOIC.Text), out soic);
+            int lic;
+            int.TryParse((txtLIC.Text), out lic);
+            int tr;
+            int.TryParse((txtTR.Text), out tr);
+            int pric;
+            int.TryParse((txtPRIC.Text), out pric);
+            int alg;
+            int.TryParse((txtALG.Text), out alg);
+            int flj;
+            int.TryParse((txtFLJ.Text), out flj);
+            int asi;
+            int.TryParse((txtASI.Text), out asi);
+            double media = 0;
+            media = (aic + dp + soic + lic + tr + pric + alg + flj + asi)/9;
+            return media;
+        }
+
         private void btGuardar_Click(object sender, EventArgs e)
         {
             int aic;
@@ -66,12 +94,14 @@ namespace csh_db_login
             int asi;
             int.TryParse((txtASI.Text), out asi);
             double media;
-            double.TryParse((txtMedia.Text), out media);
+            double.TryParse((lbMedia.Text), out media);
             planoad.Add(aic.ToString());
             escreverFich();
             this.Hide();
             Main m = new Main();
             m.Show();
         }
+
+
     }
 }
