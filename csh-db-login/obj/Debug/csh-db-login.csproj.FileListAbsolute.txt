@@ -1,0 +1,12 @@
+c:\users\pctotal\documents\visual studio 2015\Projects\csh-db-login\csh-db-login\bin\Debug\csh-db-login.exe.config
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\bin\Debug\csh-db-login.exe
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\bin\Debug\csh-db-login.pdb
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh-db-login.csprojResolveAssemblyReference.cache
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh_db_login.Login.resources
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh_db_login.Properties.Resources.resources
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh_db_login.Registo.resources
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh-db-login.csproj.GenerateResource.Cache
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh-db-login.exe
+c:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh-db-login.pdb
+C:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh_db_login.Main.resources
+C:\Users\PCtotal\Documents\Visual Studio 2015\Projects\csh-db-login\csh-db-login\obj\Debug\csh_db_login.PlanoAdicional.resources
